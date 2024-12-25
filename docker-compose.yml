@@ -1,0 +1,7 @@
+services:
+  slope:
+    image: sunouns/slope:latest
+    build: .
+    user: "1234:1234"
+    ports:
+      - 8000:8000
